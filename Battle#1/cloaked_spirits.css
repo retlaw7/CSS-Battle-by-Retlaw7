@@ -1,0 +1,61 @@
+<div class="content">
+  <div class="finger one"><p></p></div>
+  <div class="finger two"><p></p></div>
+  <div class="finger three"><p></p></div>
+</div>
+<style>
+  body{
+    background: #62306D;
+  }
+
+  .content{
+    display:flex;
+    justify-content: center;
+  }
+
+  .finger{
+    background: #F7EC7D;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 50.5vw 50.5vw 0 0;
+  }
+  .one{
+    height: 150px;
+    left:50;
+  }
+  .one p{
+    margin:auto;
+    height: 60px;
+    border:#AA445F solid 20px;
+    aspect-ratio: 1;
+    background: #E38F66;
+    border-radius: 50vw;
+  }
+  .two{
+    height: 250px;
+  }
+
+  .two p{
+    margin:auto;
+    height: 60px;
+    border:#E38F66 solid 20px;
+    aspect-ratio: 1;
+    background: #AA445F;
+    border-radius: 50vw;
+  }
+
+  .three{
+    height: 150px;
+    right: 50;
+  }
+  .three p{
+    margin:auto;
+    height: 60px;
+    border:#AA445F solid 20px;
+    aspect-ratio: 1;
+    background: #E38F66;
+    border-radius: 50vw;
+  }
+
+</style>

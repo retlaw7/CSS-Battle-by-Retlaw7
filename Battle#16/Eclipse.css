@@ -1,0 +1,44 @@
+<div class="half top"></div>
+<div class="middle"></div>
+<div class="half bottom"></div>
+
+<style>
+  body{
+    background:#F3AC3C;
+  }
+  div {
+    background: #dd6b4d;
+  }
+  .half{
+    position: absolute;
+  }
+  .top{
+    z-index: -1;
+    margin-top: -215px;
+    width: 385px;
+    height: 365px;
+    top: 0;
+    border-radius: 50%;
+    background: #998235;
+  }
+  .middle{
+    z-index: 1;
+    width: 200px;
+    aspect-ratio:1;
+	margin:auto;
+    margin-top:25;
+    border-radius: 50%;
+    background: #1A4341;
+    border: 25px solid #F3AC3C;
+  }
+  .bottom{
+    z-index: 2;
+    margin-bottom:-215px;
+    width: 385px;
+    height: 365px;
+    bottom: 0;
+    border-radius: 50%;
+    background: #998235;
+  }
+</style>
+/* 99.7% */

@@ -1,0 +1,15 @@
+<div></div>
+<style>
+  body{
+    background: #0B2429;
+  }
+  div {
+    background: linear-gradient(135deg,#F3AC3C 47%, #0B2429 40%);
+    width: 150px;
+    linear-gradient:45deg, #0B2429, #F3AC3C;
+   	aspect-ratio: 1;
+    position:absolute;
+    top: 0;
+    left: 0;
+  }
+</style>

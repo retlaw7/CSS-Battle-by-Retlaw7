@@ -1,0 +1,43 @@
+<div id="center">
+<p id="a">
+<p id="b">
+  <br />
+<p id="c">
+<p id="d">
+<style>
+  body{
+        background:#E3516E;
+  }
+  #center{
+    width: 200px;
+    height:200px;
+    position: absolute;
+    top: 50;
+    left: 100;
+    clip-path: circle(100px);
+  }
+  #a{
+    position: relative;
+    float:left;
+    background: #51B5A9;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+  }
+  #b{
+    position: relative;
+    float: right;
+    background: #FADE8B;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+  }
+  #c{
+    position: relative;
+    float:left;
+    background: #F7F3D7;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+  }
+</style>

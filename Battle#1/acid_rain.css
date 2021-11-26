@@ -1,0 +1,41 @@
+<p id="c">
+<p id="b">
+<p id="a">
+<style>
+  body{
+        background:#0B2429;
+  }
+  #a{
+    position:absolute;
+    background:#F3AC3C;
+    width: 120px;
+    height: 120px;
+    top: 134;
+    left: 80;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+  #b{
+    position:absolute;
+    background:#998235;
+    width: 120px;
+    height: 120px;
+    top: 74;
+    left: 140;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+  #c{
+    position:absolute;
+    background:#F3AC3C;
+    width: 120px;
+    height: 120px;
+    top: 14;
+    left: 200;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+</style>

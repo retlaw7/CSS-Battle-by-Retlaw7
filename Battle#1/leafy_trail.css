@@ -1,0 +1,38 @@
+<p id="a">
+<p id="b">
+<p id="c">
+<style>
+  body{
+        background:#0B2429;
+  }
+
+  #a{
+    background: #1A4341;
+    position: absolute;
+    width: 150px;
+    height:150px;
+    top: 59px;
+   	left: 75px;
+    border-top-left-radius: 67%
+  }
+  #b{
+    background: #998235;
+    position: absolute;
+    width: 150px;
+    height:150px;
+    top: 59px;
+   	left: 125px;
+    border-top-left-radius: 67%;
+    border-bottom-right-radius: 67%;
+  }
+  #c{
+    background: #F3AC3C;
+    position: absolute;
+    width: 150px;
+    height:150px;
+    top: 59px;
+   	left: 175px;
+    border-top-left-radius: 67%;
+    border-bottom-right-radius: 67%;
+  }
+</style>
