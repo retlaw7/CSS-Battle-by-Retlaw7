@@ -1,0 +1,51 @@
+<div class="back">
+  <p id="a"></p>
+  <p id="b"></p>
+</div>
+<div class ="top">
+  <p>
+<style>
+  body{
+    background: #243D83;
+  }
+  .top{
+    background: #243D83;
+    width: 120px;
+    aspect-ratio: 1;
+   	position: absolute;
+    top: 90;
+    left: 140;
+    transform : rotate(135deg);
+  }
+  .top p{
+    text-align:center;
+    width: 60px;
+    aspect-ratio: 1;
+    background: #EEB850;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 50%;
+  }
+  .back {
+    width: 185px;
+    aspect-ratio: 1;
+    background: #243D83;
+    margin: auto;
+    margin-top: 58px
+  }
+  .back p{
+    width: 100px;
+    height:220px;
+    background: #6592CF;
+    border-radius: 50vw 50vw;
+    position:absolute;
+    margin-top: -18px;
+    margin-left: 43px
+  }
+  #a{
+    transform : rotate(135deg);
+  }
+  #b{
+    transform : rotate(45deg);
+  }
+</style>

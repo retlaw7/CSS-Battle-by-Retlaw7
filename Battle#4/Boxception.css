@@ -1,0 +1,32 @@
+<div>
+  <p class="a"><p class="b"></p></p>
+  
+</div>
+<style>
+  body{
+    background: #F3AC3C;
+  }
+  div {
+    width: 200px;
+    aspect-ratio: 1;
+    background: #1A4341;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .a{
+    background:#998235;
+    width: 100px;
+    aspect-ratio: 1;
+    position: absolute;
+    margin: 0;
+    margin-top:100px;
+  }
+  .b{
+    background:#F3AC3C;
+    width: 50px;
+    aspect-ratio: 1;
+    position: absolute;
+    margin-left: 50;
+    margin-top:150px;
+    
+  }
